@@ -1,0 +1,13 @@
+.navbarColor {
+    background-color: #1d1616;
+    border-bottom: 2px solid #4aaaa5; 
+}
+
+.navTogglerColor{
+    background-color: #1d1616;
+    border: 2px solid #4aaaa5;
+}
+
+a {
+    color: #4aaaa5;
+}
