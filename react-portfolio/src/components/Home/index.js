@@ -8,7 +8,7 @@ import BorderedImage from "../BorderedImage";
 function Home() {
     return (
         <div>
-            <HeroImage image="./images/space.jpg" randomQuote={true} animate={true}/>
+            <HeroImage image="./images/space2.png" randomQuote={true} animate={true}/>
             <ContentArea>
                 <div className="row">
                     <div className="col-12">
