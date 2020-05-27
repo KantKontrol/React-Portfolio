@@ -17,6 +17,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: x-large;
 }
 
 .animateFadeIn {
@@ -34,8 +35,8 @@
 }
 
 
-@media only screen and (max-width: 425px){
-    h2 {
-        font-size:  medium;
+@media only screen and (max-width: 700px){
+    p {
+        font-size: large;
     }
 }

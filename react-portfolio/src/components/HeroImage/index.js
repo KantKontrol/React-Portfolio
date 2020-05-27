@@ -25,7 +25,7 @@ function HeroImage(props) {
     return (
         <div className="hero-image" style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${props.image})` }}>
             <div className="hero-text">
-                {props.randomQuote ? <h2 className={props.animate ? `animateFadeIn` : ``}>{title}</h2> : console.log("QuoteNotAdded")}
+                {props.randomQuote ? <p className={props.animate ? `animateFadeIn` : ``}>{title}</p> : console.log("QuoteNotAdded")}
             </div>
         </div>
     );
