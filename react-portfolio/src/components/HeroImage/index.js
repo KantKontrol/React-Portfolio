@@ -5,6 +5,7 @@ import "./index.css";
 function HeroImage(props) {
 
     const [title, setTitle] = useState("");
+    const [anim, setAnim] = useState(true);
 
     const preSetQuotes = [
         "“Talk is cheap. Show me the code.” - Linus Torvalds",
@@ -24,13 +25,33 @@ function HeroImage(props) {
             }
         }
 
+        if(anim){
+            iterateText();
+            setAnim(false);
+        }
+
     }, [props.quotes, props.randomQuote, preSetQuotes])
+
+    function iterateText(){
+        setInterval(() => {
+            
+            let ran = Math.floor(Math.random() * preSetQuotes.length);
+            let newTitle = preSetQuotes[ran];
+            if(newTitle === title){
+
+            }
+            else{
+                setTitle(newTitle);
+            }
+            console.log("iterate")
+        }, 4000);
+    }
 
     
     return (
         <div className="hero-image" style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${props.image})` }}>
             <div className="hero-text">
-                {props.randomQuote ? <HeroText text={title} /> : console.log("QuoteNotAdded")}
+                {props.randomQuote ? <HeroText text={title} iterateText={iterateText}/> : console.log("QuoteNotAdded")}
             </div>
         </div>
     );
