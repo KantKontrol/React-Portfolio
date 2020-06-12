@@ -3,14 +3,16 @@
     min-height: 100%;
     max-width: 100%;
     min-width: 100%;
+    border-radius: 10px;
 }
 
 .imageHolder {
+    position: relative;
     background-color: #1d1616;
     border: 2px solid #4aaaa5;
     max-width: 400px;
-    max-height: 400px;
+    min-height: 400px;
     height: auto;
-    padding: 10px;
+    padding: 15px;
     margin: 0 auto;
 }
