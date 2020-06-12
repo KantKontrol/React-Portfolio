@@ -1,0 +1,17 @@
+.cusFont {
+    font-size: x-large;   
+}
+
+.animateFadeIn {
+    text-shadow: black 2px 2px 5px;
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
