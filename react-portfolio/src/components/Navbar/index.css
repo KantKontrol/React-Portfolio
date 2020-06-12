@@ -20,7 +20,12 @@
     flex-direction: row !important;
     list-style: none;
     margin-bottom: 0px;
+    margin: 0 auto;
     padding: 0px;
+}
+
+.current-page {
+    text-shadow: 2px 2px 5px #4aaaad;
 }
 
 a {

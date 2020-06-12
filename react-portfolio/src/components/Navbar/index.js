@@ -1,19 +1,20 @@
 import React from "react";
+import { Link,  useLocation } from "react-router-dom";
 import "./index.css";
 //Need to adjust toggler to be centered
 function Navbar() {
+
+    let location = useLocation().pathname;
+
     return (
         <nav className="navbar navbar-expand-sm fixed-top">
             <div className="mx-auto navbarGrow navbarColor"> 
                     <ul className="cusNav">
                         <li className="nav-item">
-                            <a className="nav-link" href="/home">Home <span className="sr-only">(current)</span></a>
+                            <Link className={location === "/home" ? "nav-link current-page" : "nav-link" } to="/home">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/about">About</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="/projects">Projects</a>
+                            <Link className={location === "/portfolio" ? "nav-link current-page" : "nav-link" } to="/portfolio">Portfolio</Link>
                         </li>
                     </ul>
             </div>
