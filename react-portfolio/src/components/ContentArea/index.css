@@ -4,4 +4,6 @@
     flex: 1 0 auto;
     padding: 0;
     overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }

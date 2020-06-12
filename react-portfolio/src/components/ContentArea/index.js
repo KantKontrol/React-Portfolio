@@ -3,7 +3,7 @@ import "./index.css";
 
 function ContentArea(props) {
     return (
-        <div className="container-fluid content">
+        <div className="container content">
             {props.children}
         </div>
     );
