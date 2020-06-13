@@ -1,6 +1,7 @@
 import React from "react";
 import "./index.css";
 import HeaderText from "../HeaderText";
+import Seperator from "../Seperator";
 
 export default function ProjectJumbotron(props){
     
@@ -13,11 +14,14 @@ export default function ProjectJumbotron(props){
                 </div>
                 <div className="col-lg-6" style={{overflow: "hidden"}}>
                     <HeaderText text={props.title} />
-                    <div className="proj-technology mx-auto">
+                    
+                    <div className="proj-technology mx-auto mb-1">
                         {props.techUsed.map((e, i) =>  i < props.techUsed.length-1 ? e + " | " : e )}
                     </div>
 
-                    <div className="col-lg-12 proj-desc" >
+                    <Seperator />
+
+                    <div className="col-lg-12 mt-2 proj-desc" >
                         {props.desc}
                     </div>
                 </div>
@@ -30,7 +34,7 @@ export default function ProjectJumbotron(props){
                             <button type="button" className="button-style"><i className="fab fa-github"></i> Github</button>
                         </a>
                         <a href={props.deployed} target="_blank" rel="noopener noreferrer">
-                            <button type="button" className="button-style"><i className="far fa-eye"></i> Deployed App</button>
+                            <button type="button" className="button-style ml-2"><i className="far fa-eye"></i> Deployed App</button>
                         </a>
                     </div>
                 </div>

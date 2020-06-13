@@ -21,8 +21,8 @@
     color: #4aaaa5 !important;
     font-family: 'Share Tech Mono', monospace !important;
     opacity: .8;
+    
 }
-
 
 .proj-text {
     background-color: green;
@@ -49,7 +49,6 @@
     border-radius: 5px;
     font-family: 'Share Tech Mono', monospace !important;
 }
-
 
 .button-style:hover {
     box-shadow: 2px 2px 5px #4aaaa5;
