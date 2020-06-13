@@ -25,10 +25,13 @@ export default function ProjectJumbotron(props){
                 </div>
                 <div className="col-lg-6  my-auto">
                     <div className="button-holder mx-auto">
-                        <button type="button" className="button-style"><i className="fab fa-github"></i> Github</button>
-                        <button type="button" className="button-style"><i className="far fa-eye"></i> Deployed App</button>
+                        <a href={props.github}>
+                            <button type="button" className="button-style"><i className="fab fa-github"></i> Github</button>
+                        </a>
+                        <a href={props.deployed}>
+                            <button type="button" className="button-style"><i className="far fa-eye"></i> Deployed App</button>
+                        </a>
                     </div>
-
                 </div>
             </div>
         </div>
