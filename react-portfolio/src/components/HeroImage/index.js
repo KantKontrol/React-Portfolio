@@ -41,9 +41,6 @@ function HeroImage(props) {
         setInterval(() => {
 
             let newTitle = "";
-            
-            console.log(currentIteration);
-            console.log(preSetQuotes[currentIteration]);
 
             if(currentIteration > preSetQuotes.length-1){
                 currentIteration = 0;

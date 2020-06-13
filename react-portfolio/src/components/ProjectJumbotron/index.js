@@ -3,6 +3,7 @@ import "./index.css";
 import HeaderText from "../HeaderText";
 import Seperator from "../Seperator";
 
+
 export default function ProjectJumbotron(props){
     
     return (
@@ -27,7 +28,6 @@ export default function ProjectJumbotron(props){
                 </div>
             </div>
             <div className="row mt-2">
-
                 <div className="col-lg-12  my-auto">
                     <div className="button-holder mx-auto">
                         <a href={props.github} target="_blank" rel="noopener noreferrer">
