@@ -1,6 +1,7 @@
 import React from "react";
 import ContentArea from "../ContentArea";
 import HeroImage from "../HeroImage";
+import ProjectJumbotron from "../ProjectJumbotron";
 
 
 function Portfolio() {
@@ -8,6 +9,10 @@ function Portfolio() {
         <div>
             <HeroImage image="./images/space5.jpg" randomQuote={true} animate={false} quotes={["Projects"]}/>
             <ContentArea>
+                <div className="row" style={{margin: 10 + "px"}}>
+                    <ProjectJumbotron />
+                </div>
+                
 
 
             </ContentArea>

@@ -1,0 +1,22 @@
+.jumbo-style{
+    height: 600px;
+    background-color: #1d1616;
+    border: 2px solid #4aaaa5;
+}
+
+
+.proj-image{
+    background-color: red;
+    height: 100%;
+}
+
+
+.proj-text {
+    background-color: green;
+    height: 100%;
+}
+
+.proj-desc {
+    background-color: orange;
+    height: 100%;
+}
