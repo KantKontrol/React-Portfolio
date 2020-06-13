@@ -59,9 +59,6 @@ function Portfolio() {
                         return <ProjectJumbotron src={e.src} title={e.title} techUsed={e.techUsed} desc={e.desc} github={e.github} deployed={e.deployed}/>
                     })}
                 </div>
-                
-
-
             </ContentArea>
         </div>
     );
