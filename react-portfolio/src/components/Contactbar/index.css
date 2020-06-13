@@ -1,0 +1,8 @@
+.contact-bar {
+    background-color: #1d1616;
+    border: 2px solid #4aaaa5;
+    height: max-content;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0 auto;
+}
