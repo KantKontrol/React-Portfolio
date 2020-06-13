@@ -10,7 +10,7 @@ function Portfolio() {
             <HeroImage image="./images/space5.jpg" randomQuote={true} animate={false} quotes={["Projects"]}/>
             <ContentArea>
                 <div className="row" style={{margin: 10 + "px"}}>
-                    <ProjectJumbotron title="Password Generator" techUsed="HTML, CSS, JS"/>
+                    <ProjectJumbotron title="Password Generator" techUsed={["HTML", "JS", "CSS"]}/>
                 </div>
                 
 

@@ -14,7 +14,7 @@ export default function ProjectJumbotron(props){
                 <div className="col-lg-6" style={{overflow: "hidden"}}>
                     <HeaderText text={props.title} />
                     <div className="proj-technology mx-auto">
-                        {props.techUsed}
+                        {props.techUsed.map((e, i) =>  i < props.techUsed.length-1 ? e + " | " : e )}
                     </div>
                 </div>
             </div>
