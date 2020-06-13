@@ -4,8 +4,9 @@ import "./index.css";
 
 function HeroImage(props) {
 
-    const [title, setTitle] = useState("");
-    const [anim, setAnim] = useState(true);
+    let [title, setTitle] = useState("");
+    let [anim, setAnim] = useState(true);
+    let currentIteration = 1;
 
     const preSetQuotes = [
         "“Talk is cheap. Show me the code.” - Linus Torvalds",
@@ -23,8 +24,7 @@ function HeroImage(props) {
                     setTitle(props.quotes[0]);
                 }
                 else { //otherwise grab a preset one
-                    let ran = Math.floor(Math.random() * preSetQuotes.length);
-                    setTitle(preSetQuotes[ran]);
+                    setTitle(preSetQuotes[0]);
                 }
             }
     
@@ -33,22 +33,28 @@ function HeroImage(props) {
                 setAnim(false);
             }
         }
-        
+
         return () => mounted = false;
-    }, [props.quotes, props.randomQuote, preSetQuotes])
+    }, [])
 
     function iterateText(){
         setInterval(() => {
-            
-            let ran = Math.floor(Math.random() * preSetQuotes.length);
-            let newTitle = preSetQuotes[ran];
-            if(newTitle === title){
 
+            let newTitle = "";
+            
+            console.log(currentIteration);
+            console.log(preSetQuotes[currentIteration]);
+
+            if(currentIteration > preSetQuotes.length-1){
+                currentIteration = 0;
             }
-            else{
-                setTitle(newTitle);
-            }
-        }, 4000);
+            
+            newTitle = preSetQuotes[currentIteration];
+            setTitle(newTitle);
+    
+
+            currentIteration+=1;
+        }, 6000);
     }
 
     
