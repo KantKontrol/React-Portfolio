@@ -1,15 +1,20 @@
 footer {
     border-top: 8px solid #4aaaa5;
     background-color: #1d1616;
-    height: 75px;
+    height: max-content;
     flex-shrink: 0;
     margin-top: auto;
 }
 
+.footer-content {
+    margin: 0 auto;
+    width: max-content;
+}
+
 .footer-text{
+    display: inline-block;
     width: max-content;
     color: #4aaaa5;
     font-size: large;
-    margin: 20px auto;
     font-family: 'Share Tech Mono', monospace;
 }

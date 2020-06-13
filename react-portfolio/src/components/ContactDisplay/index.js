@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./index.css";
 
 export default function ContactDisplay(props){
 
@@ -8,9 +8,9 @@ export default function ContactDisplay(props){
 
 
     return (
-        <a href={href}>
+        <a className="contact-display" href={href}>
             <img src={src} alt="..."/>
-            {text}
+             {text}
         </a>
     );
 }

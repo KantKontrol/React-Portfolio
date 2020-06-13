@@ -4,8 +4,6 @@ import HeroImage from "../HeroImage";
 import BorderedContainer from "../BorderedContainer";
 import BorderedImage from "../BorderedImage";
 import TextBox from "../TextBox";
-import HeaderText from "../HeaderText";
-import Contactbar from "../Contactbar";
 
 
 function Home() {
@@ -16,12 +14,7 @@ function Home() {
         <div>
             <HeroImage image="./images/space2.png" randomQuote={true} animate={true}/>
             <ContentArea>
-                <div className="row">
-                    <div className="col-lg-12">
-                        <HeaderText text="About" />
-                    </div>
-                </div>
-                
+
                 <div className="row">
                     <BorderedImage src="./images/mich.jpg" alt="picture of me" col={3}></BorderedImage>
                     <BorderedContainer col={8}>
@@ -32,27 +25,6 @@ function Home() {
                                 </div>
                             </div>
                     </BorderedContainer>
-                </div>
-
-
-                <div className="row">
-                        <div className="col-lg-12">
-                            <HeaderText text="Contact me" />
-                            <div className="row">
-                                <div className="col-lg-3">
-
-                                </div>
-                                <div className="col-lg-6">
-                                    <Contactbar />
-                                </div>
-                                <div className="col-lg-3">
-                                    
-                                </div>
-                            </div>
-
-                        </div>
-                        
-
                 </div>
             </ContentArea>
         </div>
