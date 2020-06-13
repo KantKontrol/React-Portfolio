@@ -4,17 +4,21 @@ footer {
     height: max-content;
     flex-shrink: 0;
     margin-top: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .footer-content {
     margin: 0 auto;
     width: max-content;
+    height: min-content;
 }
 
 .footer-text{
-    display: inline-block;
+    display: block;
+    margin: 0 auto;
     width: max-content;
     color: #4aaaa5;
-    font-size: large;
+    font-size: small;
     font-family: 'Share Tech Mono', monospace;
 }

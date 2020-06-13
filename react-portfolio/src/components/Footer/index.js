@@ -8,11 +8,9 @@ function Footer(){
             <div className="footer-content">
                 <div className="footer-text">
                     Created By Nicholas DeRissio
-                    
                 </div>
                 <Contactbar />
             </div>
-
         </footer>
     );
 }
