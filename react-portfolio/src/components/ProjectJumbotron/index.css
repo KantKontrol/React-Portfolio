@@ -1,18 +1,26 @@
 .jumbo-style{
     background-color: #1d1616;
     border: 2px solid #4aaaa5;
+    padding: 10px;
 }
 
 
-.proj-image{
-    background-color: red;
+.shadow{
+    position: absolute;
+    width: 100%;
     height: 100%;
+    top: 0;
+    left: 0px;
+    -webkit-box-shadow: inset 0px 0px 10px 2px rgba(74,170,165,1);
+    -moz-box-shadow: inset 0px 0px 10px 2px rgba(74,170,165,1);
+    box-shadow: inset 0px 0px 10px 2px rgba(74,170,165,1) !important;
 }
 
 .proj-technology{
     width: max-content;
     color: #4aaaa5 !important;
     font-family: 'Share Tech Mono', monospace !important;
+    opacity: .8;
 }
 
 
