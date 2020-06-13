@@ -30,7 +30,9 @@
 }
 
 .proj-desc {
-    background-color: orange;
+    color: #4aaaa5 !important;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace !important;
     height: 100%;
 }
 

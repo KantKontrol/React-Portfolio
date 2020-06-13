@@ -3,7 +3,6 @@ import "./index.css";
 import HeaderText from "../HeaderText";
 
 export default function ProjectJumbotron(props){
-    //<div className="proj-image" style={{backgroundImage: `url(${props.src})`}}></div>
     
     return (
         <div className="col-lg-8 mt-2 mx-auto jumbo-style" style={{overflow: "hidden"}}>
@@ -19,8 +18,7 @@ export default function ProjectJumbotron(props){
                     </div>
 
                     <div className="col-lg-12 proj-desc" >
-                        Quis est consectetur esse magna duis ad. Ea dolore consequat sit adipisicing tempor qui exercitation duis. Laborum cupidatat cillum nisi reprehenderit aliqua ullamco exercitation proident nulla dolor eu consectetur."
-
+                        {props.desc}
                     </div>
                 </div>
             </div>
