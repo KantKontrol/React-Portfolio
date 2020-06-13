@@ -14,22 +14,27 @@ function HeroImage(props) {
     ];
 
     useEffect(() => {
+        let mounted = true;
 
-        if(props.randomQuote){ //if the random quote prop was set to true
-            if(props.quotes){ //if they passed in an array of quotes to use
+
+        if(mounted){
+            if(props.randomQuote ){ //if the random quote prop was set to true
+                if(props.quotes){ //if they passed in an array of quotes to use
+                    setTitle(props.quotes[0]);
+                }
+                else { //otherwise grab a preset one
+                    let ran = Math.floor(Math.random() * preSetQuotes.length);
+                    setTitle(preSetQuotes[ran]);
+                }
+            }
     
-            }
-            else { //otherwise grab a preset one
-                let ran = Math.floor(Math.random() * preSetQuotes.length);
-                setTitle(preSetQuotes[ran]);
+            if(anim && props.animate){
+                iterateText();
+                setAnim(false);
             }
         }
-
-        if(anim){
-            iterateText();
-            setAnim(false);
-        }
-
+        
+        return () => mounted = false;
     }, [props.quotes, props.randomQuote, preSetQuotes])
 
     function iterateText(){
@@ -43,7 +48,6 @@ function HeroImage(props) {
             else{
                 setTitle(newTitle);
             }
-            console.log("iterate")
         }, 4000);
     }
 

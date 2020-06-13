@@ -1,13 +1,17 @@
 import React from "react";
 import ContentArea from "../ContentArea";
+import HeroImage from "../HeroImage";
 
 
 function Portfolio() {
     return (
-        <ContentArea>
+        <div>
+            <HeroImage image="./images/space3.png" randomQuote={true} animate={false} quotes={["Projects"]}/>
+            <ContentArea>
 
 
-        </ContentArea>
+            </ContentArea>
+        </div>
     );
 }
 
