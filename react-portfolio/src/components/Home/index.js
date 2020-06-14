@@ -14,7 +14,7 @@ function Home() {
 
     return (
         <div>
-            <HeroImage image="./images/space2.png" randomQuote={true} animate={true}/>
+            <HeroImage image="./images/space2.jpg" randomQuote={true} animate={true}/>
             <ContentArea>
                 <div className="row">
                     <BorderedImage src="./images/mich.jpg" alt="picture of me" col={3}></BorderedImage>

@@ -9,7 +9,7 @@ function Portfolio() {
 
     let projects = [
         {
-            src: "./images/port/in2uned.png",
+            src: "./images/port/in2uned.jpg",
             title: "In2uned",
             techUsed: ["Handlebars", "ExpressJS", "Passport", "Sequelize", "Bootstrap"],
             desc: "In2uned was a Group Project where I served as Project Lead as well as Backend Dev. This is a website where you can express your opinion about music. Users can search for songs, write a review, choose a star rating, and then share it with the world!",
@@ -17,7 +17,7 @@ function Portfolio() {
             deployed: "http://quiet-thicket-75299.herokuapp.com/"
         },
         {
-            src: "./images/port/ConcertGlobal.png",
+            src: "./images/port/ConcertGlobal.jpg",
             title: "Concert Global",
             techUsed: ["HTML", "JS", "Materialize", "JQuery"],
             desc: "This was a group project where I served as Project Lead, as Well as Back End/Front End Dev. Concert Global is a Ticket Aggregator, pulling ticket data from two seperate APIs. Providing the user with as much choice for ticket purchase as possible. Site also uses current location to grab concerts in user' area and display that information in the sidebar.",
@@ -25,7 +25,7 @@ function Portfolio() {
             deployed: "https://kantkontrol.github.io/ConcertFinder/"
         },
         {
-            src: "./images/port/EmployeeDirectory.png",
+            src: "./images/port/EmployeeDirectory.jpg",
             title: "Employee Directory",
             techUsed: ["ReactJS", "Bootstrap"],
             desc: "This is a simple project I had done in React. It has a simple sort functionality in the table where it sorts by last name, and you can also search by last name in real time.",
@@ -33,7 +33,7 @@ function Portfolio() {
             deployed: "https://pure-journey-86666.herokuapp.com/"
         },
         {
-            src: "./images/port/ReactBooks.png",
+            src: "./images/port/ReactBooks.jpg",
             title: "React Book Search",
             techUsed: ["ReactJS", "MongoJS", "Bootstrap"],
             desc: "This was a solo assignment. The Application allows you to search Google Books API and either view the select book on the google site, or save it for later in the saved section of the site.",
@@ -41,7 +41,7 @@ function Portfolio() {
             deployed: "https://mighty-island-27011.herokuapp.com/search"
         },
         {
-            src: "./images/port/CodeQuiz.png",
+            src: "./images/port/CodeQuiz.jpg",
             title: "Code Quiz",
             techUsed: ["HTML", "JS", "Bootstrap"],
             desc: "This was a solo project. A basic webpage that quizzes the user with pre-set Javascript questions. Give it a try and see how you fare!",
