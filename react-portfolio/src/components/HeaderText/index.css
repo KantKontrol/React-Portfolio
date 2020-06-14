@@ -1,7 +1,16 @@
 .header-text {
     font-family: 'Share Tech Mono', monospace;
+    font-size: xx-large;
     width: max-content;
     color: #4aaaa5;
     text-shadow: 2px 2px 5px #1d1616;
     margin: 0 auto;
+}
+
+
+
+@media only screen and (max-width: 375px){
+    .header-text{
+        font-size: large;
+    }
 }

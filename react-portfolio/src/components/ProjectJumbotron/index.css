@@ -18,6 +18,7 @@
 
 .proj-technology{
     width: max-content;
+    font-size: 1.5vw;
     color: #4aaaa5 !important;
     font-family: 'Share Tech Mono', monospace !important;
     opacity: .8;
@@ -53,3 +54,26 @@
 .button-style:hover {
     box-shadow: 2px 2px 5px #4aaaa5;
 }
+
+
+
+@media only screen and (min-width: 1024px){
+    .proj-technology{
+        font-size: .9vw;
+    }
+
+    .proj-desc{
+        font-size: large;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .proj-technology{
+        font-size: 2vw;
+    }
+
+    .proj-desc{
+        font-size: small;
+    }
+}
+

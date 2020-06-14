@@ -7,7 +7,7 @@ import Seperator from "../Seperator";
 export default function ProjectJumbotron(props){
     
     return (
-        <div className="col-lg-8 mt-2 mx-auto jumbo-style" style={{overflow: "hidden"}}>
+        <div className="col-lg-11 mt-2 mx-auto jumbo-style" style={{overflow: "hidden"}}>
             <div className="row" style={{margin: 5 + "px"}}>
                 <div className="col-lg-6" style={{overflow: "hidden", padding: 0 + "px"}}>
                     <img src={props.src} alt="..." className="img-responsive my-auto" width="100%" height="100%" />
