@@ -1,4 +1,5 @@
 .header-text {
+    display: table; /* Centers items for IE */
     font-family: 'Share Tech Mono', monospace;
     font-size: xx-large;
     width: max-content;
