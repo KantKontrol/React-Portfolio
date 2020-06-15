@@ -16,19 +16,30 @@ function Home() {
         <div>
             <HeroImage image="./images/space2.jpg" randomQuote={true} animate={true}/>
             <ContentArea>
+
                 <div className="row">
-                    <BorderedImage src="./images/mich.jpg" alt="picture of me" col={3}></BorderedImage>
-                    <BorderedContainer col={8}>
-                            <div className="row">
-                                <div className="col-lg-12">
-                                    <Fade bottom>
-                                        <TextBox text={text} />
-                                        <TextBox text={text2} />
-                                    </Fade>
-                                </div>
-                            </div>
-                    </BorderedContainer>
+                    <div className="col-lg-1">
+                            
+                    </div>
+                    <div className="col-lg-10">
+                        <div className="row">
+                            <BorderedImage src="./images/mich.jpg" alt="picture of me" col={3}></BorderedImage>
+                
+                            <BorderedContainer col={8}>
+        
+                                <Fade bottom>
+                                    <TextBox text={text} />
+                                    <TextBox text={text2} />
+                                </Fade>
+
+                            </BorderedContainer>
+                        </div>
+                    </div>
+                    <div className="col-lg-1">
+                            
+                    </div>
                 </div>
+
             </ContentArea>
         </div>
     );

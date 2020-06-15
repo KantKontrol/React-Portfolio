@@ -1,9 +1,7 @@
 .mainStyle {
     background-color: #1d1616;
     border: 2px solid #4aaaa5;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 75px;
-    margin-bottom: 75px;
     border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
