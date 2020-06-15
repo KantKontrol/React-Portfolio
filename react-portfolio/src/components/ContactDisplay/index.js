@@ -9,8 +9,7 @@ export default function ContactDisplay(props){
 
     return (
         <a className="contact-display" target="_blank" rel="noopener noreferrer" href={href}>
-            <img src={src} alt="..."/>
-             {text}
+            <i class={src}></i>
         </a>
     );
 }
