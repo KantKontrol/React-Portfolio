@@ -9,6 +9,14 @@ function Portfolio() {
 
     let projects = [
         {
+            src: "./images/port/Waypoint.jpg",
+            title: "Waypoint",
+            techUsed: ["ReactJS", "SocketIO", "Sequelize", "Bootstrap", "ExpressJS"],
+            desc: "In this group project I served as a Back End Developer. Creating the Database models, as well as API routes. I also built the Real-Time Chat functionality in SocketIO for this app.",
+            github: "https://github.com/WarriorofZarona/media-matcher",
+            deployed: "https://ancient-dusk-51587.herokuapp.com/"
+        },
+        {
             src: "./images/port/in2uned.jpg",
             title: "In2uned",
             techUsed: ["Handlebars", "ExpressJS", "Passport", "Sequelize", "Bootstrap"],
@@ -49,6 +57,9 @@ function Portfolio() {
             deployed: "https://kantkontrol.github.io/Code-Quiz/"
         }
     ];
+
+
+    
 
 
     return (
