@@ -5,11 +5,13 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Portfolio from "./components/Portfolio";
+import ScrollToTop from "./components/ScrollToTop";
 
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div>
         <Navbar />
           <Switch>

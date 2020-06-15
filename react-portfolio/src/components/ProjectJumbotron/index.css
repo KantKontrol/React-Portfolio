@@ -33,6 +33,7 @@
 
 .proj-desc {
     color: #4aaaa5 !important;
+    text-shadow: 2px 2px 5px #4aaaad;
     text-align: center;
     font-family: 'Share Tech Mono', monospace !important;
     height: 100%;
