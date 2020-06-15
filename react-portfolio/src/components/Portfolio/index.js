@@ -69,7 +69,7 @@ function Portfolio() {
                 <div className="row" style={{margin: 10 + "px"}}>
                     <Fade bottom>
                         {projects.map(e => {
-                            return <ProjectJumbotron src={e.src} title={e.title} techUsed={e.techUsed} desc={e.desc} github={e.github} deployed={e.deployed}/>
+                            return <ProjectJumbotron key={e.title} src={e.src} title={e.title} techUsed={e.techUsed} desc={e.desc} github={e.github} deployed={e.deployed}/>
                         })}
                     </Fade>
                 </div>
