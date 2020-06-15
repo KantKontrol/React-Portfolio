@@ -11,7 +11,9 @@ function HeroImage(props) {
     const preSetQuotes = [
         "“Talk is cheap. Show me the code.” - Linus Torvalds",
         "“Truth can only be found in one place: the code.” - Robert C. Martin",
-        "“Programmers are not to be measured by their ingenuity and their logic but by the completeness of their case analysis.” - Alan J. Perlis"
+        "“Programmers are not to be measured by their ingenuity and their logic but by the completeness of their case analysis.” - Alan J. Perlis",
+        "“Simplicity is the soul of efficiency.” – Austin Freeman",
+        "“Make it work, make it right, make it fast.” – Kent Beck"
     ];
 
     useEffect(() => {
