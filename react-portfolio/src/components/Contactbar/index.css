@@ -11,6 +11,7 @@
 }
 
 .center {
+    display: table;
     width: max-content;
     padding: 0px;
     margin: 0 auto;
