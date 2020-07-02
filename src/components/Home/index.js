@@ -6,6 +6,7 @@ import BorderedImage from "../BorderedImage";
 import TextBox from "../TextBox";
 import Fade from "react-reveal/Fade";
 import HeaderText from "../HeaderText";
+import SkillsPane from "../SkillsPane";
 
 
 function Home() {
@@ -53,6 +54,20 @@ function Home() {
                             
                     </div>
                 </div>
+
+                <div className="row">
+                    <div className="col-lg-1">
+                            
+                    </div>
+                    <div className="col-lg-10">
+                        <SkillsPane />
+                    </div>
+                    <div className="col-lg-1">
+                            
+                    </div>
+                </div>
+
+                
 
             </ContentArea>
         </div>
