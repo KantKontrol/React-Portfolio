@@ -8,7 +8,14 @@
     margin: 0 auto;
 }
 
-
+.border-background {
+    border: 2px solid #4aaaa5;
+    background-color: #1d1616;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px #4aaaa5;
+}
 
 @media only screen and (max-width: 375px){
     .header-text{
