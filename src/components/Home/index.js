@@ -60,7 +60,7 @@ function Home() {
                             
                     </div>
                     <div className="col-lg-10">
-                        <SkillsPane />
+                        <SkillsPane skillOne={["HTML", "CSS", "Javascript/ES6", "React", "Handlebars"]} skillTwo={["NodeJS", "ExpressJS", "MongoDB", "mySQL", "REST API"]} />
                     </div>
                     <div className="col-lg-1">
                             
