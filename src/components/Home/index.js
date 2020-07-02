@@ -5,6 +5,7 @@ import BorderedContainer from "../BorderedContainer";
 import BorderedImage from "../BorderedImage";
 import TextBox from "../TextBox";
 import Fade from "react-reveal/Fade";
+import HeaderText from "../HeaderText";
 
 
 function Home() {
@@ -16,6 +17,19 @@ function Home() {
         <div>
             <HeroImage image="./images/space2.jpg" randomQuote={true} animate={true}/>
             <ContentArea>
+
+                <div className="row">
+                    <div className="col-lg-1">
+
+                    </div>
+                    <div className="col-lg-10">
+                        <HeaderText text="Nicholas DeRissio"/>
+                        <HeaderText text="Full Stack Web Developer"/>
+                    </div>
+                    <div className="col-lg-1">
+
+                    </div>
+                </div>
 
                 <div className="row">
                     <div className="col-lg-1">
