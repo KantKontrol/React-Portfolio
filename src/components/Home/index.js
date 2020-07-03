@@ -24,8 +24,7 @@ function Home() {
 
                     </div>
                     <div className="col-lg-10">
-                        <HeaderText text="Nicholas DeRissio"/>
-                        <HeaderText text="Full Stack Web Developer"/>
+                        <HeaderText text="Nicholas DeRissio - Full Stack Web Developer"/>
                     </div>
                     <div className="col-lg-1">
 
