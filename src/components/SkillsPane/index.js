@@ -6,7 +6,7 @@ import HeaderText from "../HeaderText";
 export default function SkillsPane(props){
 
     return (
-        <div className="skills-style">
+        <div className="skills-style border-style">
             <div className="row">
                 <HeaderText text="Skills" />
             </div>
@@ -18,7 +18,7 @@ export default function SkillsPane(props){
                 
 
                 
-                <div className="col-lg-4 col-md-4 border-background">
+                <div className="col-lg-4 col-md-4 ">
                     <ul>
                     {
                         props.skillOne.length > 0 ? props.skillOne.map(e => {
@@ -27,7 +27,7 @@ export default function SkillsPane(props){
                     }
                     </ul>
                 </div>
-                <div className="col-lg-4 col-md-4 border-background">
+                <div className="col-lg-4 col-md-4 ">
                     <ul>
                     {
                         props.skillTwo.length > 0 ? props.skillTwo.map(e => {

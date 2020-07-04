@@ -5,6 +5,6 @@ import "./index.css";
 export default function HeaderText(props){
 
     return (
-        <div className="header-text border-background">{props.text}</div>
+        <div className="header-text">{props.text}</div>
     );
 }

@@ -2,7 +2,7 @@ import React from "react";
 import ContentArea from "../ContentArea";
 import HeroImage from "../HeroImage";
 import ProjectJumbotron from "../ProjectJumbotron";
-import Slide from "react-reveal/Slide"
+import Fade from "react-reveal/Fade";
 
 
 function Portfolio() {
@@ -67,11 +67,11 @@ function Portfolio() {
             <HeroImage image="./images/space5.jpg" randomQuote={true} animate={false} quotes={["Projects"]}/>
             <ContentArea>
                 <div className="row" style={{margin: 10 + "px"}}>
-                    <Slide left>
+                    <Fade top>
                         {projects.map(e => {
                             return <ProjectJumbotron key={e.title} src={e.src} title={e.title} techUsed={e.techUsed} desc={e.desc} github={e.github} deployed={e.deployed}/>
                         })}
-                    </Slide>
+                    </Fade>
                 </div>
             </ContentArea>
         </div>
