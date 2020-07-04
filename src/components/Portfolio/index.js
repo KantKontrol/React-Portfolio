@@ -67,11 +67,10 @@ function Portfolio() {
             <HeroImage image="./images/space5.jpg" randomQuote={true} animate={false} quotes={["Projects"]}/>
             <ContentArea>
                 <div className="row" style={{margin: 10 + "px"}}>
-                    <Fade top>
                         {projects.map(e => {
-                            return <ProjectJumbotron key={e.title} src={e.src} title={e.title} techUsed={e.techUsed} desc={e.desc} github={e.github} deployed={e.deployed}/>
+                            return <Fade bottom><ProjectJumbotron key={e.title} src={e.src} title={e.title} techUsed={e.techUsed} desc={e.desc} github={e.github} deployed={e.deployed}/></Fade>
                         })}
-                    </Fade>
+                    
                 </div>
             </ContentArea>
         </div>

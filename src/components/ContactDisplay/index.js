@@ -9,7 +9,7 @@ export default function ContactDisplay(props){
 
     return (
         <a className="contact-display" target="_blank" rel="noopener noreferrer" href={href}>
-            <i class={src}></i>
+            <i className={src}></i>
         </a>
     );
 }
