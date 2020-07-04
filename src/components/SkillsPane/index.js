@@ -12,13 +12,13 @@ export default function SkillsPane(props){
             </div>
 
             <div className="row">
-                <div className="col-sm">
+                <div className="col-lg-2 col-md-2">
 
                 </div>
                 
 
                 
-                <div className="col-sm border-background">
+                <div className="col-lg-4 col-md-4 border-background">
                     <ul>
                     {
                         props.skillOne.length > 0 ? props.skillOne.map(e => {
@@ -27,7 +27,7 @@ export default function SkillsPane(props){
                     }
                     </ul>
                 </div>
-                <div className="col-sm border-background">
+                <div className="col-lg-4 col-md-4 border-background">
                     <ul>
                     {
                         props.skillTwo.length > 0 ? props.skillTwo.map(e => {
@@ -37,7 +37,7 @@ export default function SkillsPane(props){
                     </ul>
                 </div>
             
-                <div className="col-sm">
+                <div className="col-lg-2 col-md-2">
                     
                     </div>
             </div>
