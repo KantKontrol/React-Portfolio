@@ -12,20 +12,34 @@ export default function SkillsPane(props){
             </div>
 
             <div className="row">
-                <div className="col-sm" style={{ backgroundColor: "green"}}>
+                <div className="col-sm">
+
+                </div>
+                
+
+                
+                <div className="col-sm border-background">
+                    <ul>
                     {
                         props.skillOne.length > 0 ? props.skillOne.map(e => {
-                            return <div>{e}</div>
+                            return <li className="list-style">{e}</li>
                         }) : <div>No Skill</div>
                     }
+                    </ul>
                 </div>
-                <div className="col-sm" style={{ backgroundColor: "blue"}}>
-                {
+                <div className="col-sm border-background">
+                    <ul>
+                    {
                         props.skillTwo.length > 0 ? props.skillTwo.map(e => {
-                            return <div>{e}</div>
+                            return <li className="list-style">{e}</li>
                         }) : <div>No Skill</div>
                     }
+                    </ul>
                 </div>
+            
+                <div className="col-sm">
+                    
+                    </div>
             </div>
 
         </div>
