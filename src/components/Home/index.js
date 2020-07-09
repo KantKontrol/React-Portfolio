@@ -20,14 +20,14 @@ function Home() {
             <ContentArea>
 
                 <div className="row">
-                    <div className="col-lg-1">
+                    <div className="col-lg-4">
 
                     </div>
-                    <div className="col-lg-10">
+                    <div className="col-lg-4 border-style">
                         <HeaderText text="Nicholas DeRissio"/>
                         <HeaderText text="Full Stack Web Developer"/>
                     </div>
-                    <div className="col-lg-1">
+                    <div className="col-lg-4">
 
                     </div>
                 </div>

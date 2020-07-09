@@ -70,7 +70,6 @@ function Portfolio() {
                         {projects.map(e => {
                             return <Fade bottom><ProjectJumbotron key={e.title} src={e.src} title={e.title} techUsed={e.techUsed} desc={e.desc} github={e.github} deployed={e.deployed}/></Fade>
                         })}
-                    
                 </div>
             </ContentArea>
         </div>
