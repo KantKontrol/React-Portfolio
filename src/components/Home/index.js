@@ -7,7 +7,6 @@ import TextBox from "../TextBox";
 import HeaderText from "../HeaderText";
 import SkillsPane from "../SkillsPane";
 
-
 function Home() {
 
     let text = "Programming is my passion. In todays day and age, it is a passion that is forever evolving. Constantly learning, constantly problem solving, We must evolve with it or get left behind. We must also ask ourselves as programmers 'How do we push the envelope further?', for we will forever have the power of creating what the imagination provides, as well as what once was not."
@@ -17,7 +16,6 @@ function Home() {
         <div>
             <HeroImage image="./images/space2.jpg" randomQuote={true} animate={true}/>
             <ContentArea>
-
                 <div className="row">
                     <div className="col-lg-4">
 
@@ -61,9 +59,6 @@ function Home() {
                             
                     </div>
                 </div>
-
-                
-
             </ContentArea>
         </div>
     );
