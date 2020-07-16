@@ -10,7 +10,7 @@ function Footer(){
                     Created By Nicholas DeRissio
                 </div>
                 <Contactbar />
-                <a href="https://www.codewars.com/users/KantKontrol"><img src="https://www.codewars.com/users/KantKontrol/badges/small" /></a>
+                <a href="https://www.codewars.com/users/KantKontrol"><img src="https://www.codewars.com/users/KantKontrol/badges/small" alt="codewars" rel="noopener" /></a>
             </div>
         </footer>
     );

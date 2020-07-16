@@ -4,7 +4,6 @@ import HeroImage from "../HeroImage";
 import BorderedContainer from "../BorderedContainer";
 import BorderedImage from "../BorderedImage";
 import TextBox from "../TextBox";
-import Fade from "react-reveal/Fade";
 import HeaderText from "../HeaderText";
 import SkillsPane from "../SkillsPane";
 
@@ -41,12 +40,8 @@ function Home() {
                             <BorderedImage src="./images/mich.jpg" alt="picture of me" col={3}></BorderedImage>
                 
                             <BorderedContainer col={8}>
-        
-                                <Fade bottom>
                                     <TextBox text={text} />
                                     <TextBox text={text2} />
-                                </Fade>
-
                             </BorderedContainer>
                         </div>
                     </div>

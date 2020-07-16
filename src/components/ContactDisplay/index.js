@@ -4,7 +4,7 @@ import "./index.css";
 export default function ContactDisplay(props){
 
 
-    let { src, text, href } = props;
+    let { src, href } = props;
 
 
     return (
