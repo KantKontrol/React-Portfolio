@@ -32,6 +32,14 @@ function Portfolio() {
             deployed: "https://kantkontrol.github.io/ConcertFinder/"
         },
         {
+            src: "./images/port/dedrumroomgif.gif",
+            title: "De Drum Room",
+            techUsed: ["ReactJS", "Bootstrap", "ExpressJS"],
+            desc: "This is a website I created for a client. The objective was simple, something clean that displayed basic info about their work. The site originally was built out with a Shopping Cart and what not, although the client decided to steer away form that for now.",
+            github: "https://github.com/KantKontrol/DrumSite",
+            deployed: "https://www.dedrumroom.com"
+        },
+        {
             src: "./images/port/EmployeeDirectory.jpg",
             title: "Employee Directory",
             techUsed: ["ReactJS", "Bootstrap"],
