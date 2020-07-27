@@ -22,8 +22,10 @@ class HeroImage extends React.Component {
     }
 
      
- iterateText = (currentIteration) => {
-        setInterval(() => {
+ iterateText = () => {
+        let currentIteration = 1;
+
+        this.interval = setInterval(() => {
 
             let newTitle = "";
 
@@ -42,8 +44,12 @@ class HeroImage extends React.Component {
 
     componentDidMount(){
         if(this.props.animate){
-            this.iterateText(1);
+            this.iterateText();
         }
+    }
+
+    componentWillUnmount(){
+        clearInterval(this.interval);
     }
 
 
