@@ -10,6 +10,7 @@ export default function Contactbar(props){
             <div className="center">
                     <ContactDisplay src="fab fa-github" href="https://github.com/KantKontrol" text="Github" />
                     <ContactDisplay src="fab fa-linkedin" href="https://www.linkedin.com/in/nicholas-derissio" text="LinkedIn" />
+                    <ContactDisplay src="fa fa-file-text" href="/images/port/resume.pdf" text="Resume" />
                     <ContactDisplay src="fab fa-instagram" href="https://www.instagram.com/nicholas.uber.dev/" text="Instagram" />
             </div>
         </div>
