@@ -1,11 +1,6 @@
 import React from "react";
 import ContentArea from "../ContentArea";
 import HeroImage from "../HeroImage";
-import BorderedContainer from "../BorderedContainer";
-import BorderedImage from "../BorderedImage";
-import TextBox from "../TextBox";
-import HeaderText from "../HeaderText";
-import SkillsPane from "../SkillsPane";
 import ContactJumbo from "../ContactJumbo";
 
 function Contact() {
