@@ -17,14 +17,14 @@ function Home() {
             <HeroImage image="./images/space2.jpg" randomQuote={true} animate={true}/>
             <ContentArea>
                 <div className="row">
-                    <div className="col-lg-4">
+                    <div className="col-lg-3 col-md-2">
 
                     </div>
-                    <div className="col-lg-4 border-style">
+                    <div className="col-lg-6 col-md-8 border-style">
                         <HeaderText text="Nicholas DeRissio"/>
                         <HeaderText text="Full Stack Web Developer"/>
                     </div>
-                    <div className="col-lg-4">
+                    <div className="col-lg-3 col-md-2">
 
                     </div>
                 </div>
@@ -35,6 +35,7 @@ function Home() {
                     </div>
                     <div className="col-lg-10">
                         <div className="row">
+
                             <BorderedImage src="./images/mich.jpg" alt="picture of me" col={3}></BorderedImage>
                 
                             <BorderedContainer col={8}>
