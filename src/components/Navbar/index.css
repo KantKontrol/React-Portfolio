@@ -10,13 +10,15 @@
 
 .navbarGrow { 
     min-width: 259px;
-    max-height: 64px;
+    max-width: 259px;
+  
     transition: all .2s ease-in-out; 
 }
 .navbarGrow:hover { transform: scale(1.2); }
 
 .cusNav {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row !important;
     list-style: none;
     margin-bottom: 0px;
