@@ -16,35 +16,34 @@ function Home() {
         <div>
             <HeroImage image="./images/space2.jpg" randomQuote={true} animate={true}/>
             <ContentArea>
-                <div className="row">
-                    <div className="col-lg-3 col-md-2">
+                <div className="row mb-2">
 
-                    </div>
-                    <div className="col-lg-6 col-md-8 border-style">
+                    <div className="col-lg-1 col-xl-2"></div>
+
+                    <BorderedImage src="./images/mich.jpg" alt="picture of me"></BorderedImage>
+
+                    <div className="col-lg-6 col-md-7 col-xl-4 my-auto border-style">
                         <HeaderText text="Nicholas DeRissio"/>
                         <HeaderText text="Full Stack Web Developer"/>
                     </div>
-                    <div className="col-lg-3 col-md-2">
 
-                    </div>
+                    <div className="col-lg-1 col-xl-3"></div>
+
                 </div>
-
+                
                 <div className="row">
-                    <div className="col-lg-1">
+                    <div className="col-lg-2">
                             
                     </div>
-                    <div className="col-lg-10">
-                        <div className="row">
-
-                            <BorderedImage src="./images/mich.jpg" alt="picture of me" col={3}></BorderedImage>
-                
-                            <BorderedContainer col={8}>
+                    <div className="col-lg-8">
+                        <div className="row border-style">
+                            <BorderedContainer col={12}>
                                     <TextBox text={text} />
                                     <TextBox text={text2} />
                             </BorderedContainer>
                         </div>
                     </div>
-                    <div className="col-lg-1">
+                    <div className="col-lg-2">
                             
                     </div>
                 </div>

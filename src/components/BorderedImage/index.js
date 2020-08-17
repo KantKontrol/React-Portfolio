@@ -3,8 +3,8 @@ import "./index.css";
 
 function BorderedImage(props){
     return (
-        <div className={props.col ? `col-lg-${props.col} imageHolder` : 'col-lg-2 imageHolder'}>
-            <img className="bImage" src={props.src} alt={props.alt}></img>
+        <div className="col-lg-4 col-md-4 col-xl-3">
+            <img className="img-fluid port-picture d-block mx-auto" src={props.src} alt={props.alt}></img>
         </div>
     );
 }

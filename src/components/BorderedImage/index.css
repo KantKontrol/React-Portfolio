@@ -1,16 +1,5 @@
-.bImage {
-    height: auto;
-    max-width: 100%;
+.port-picture {
+    width: 70%;
     border-radius: 10px;
-}
-
-.imageHolder {
-    position: relative;
-    background-color: #1d1616;
     border: 2px solid #4aaaa5;
-    max-width: 400px;
-    height: 50%;
-    padding: 15px;
-    border-radius: 10px;
-    margin: 10px auto;
 }
