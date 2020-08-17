@@ -1,0 +1,11 @@
+.four-hover:hover{
+ 
+    color: white;
+    text-shadow: 2px 2px 5px #4aaaa5;
+    
+}
+
+.four-hover a {
+    color: #4aaaa5;
+    text-decoration: none;
+}

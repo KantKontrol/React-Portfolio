@@ -7,6 +7,7 @@ import Home from "./components/Home";
 import Portfolio from "./components/Portfolio";
 import ScrollToTop from "./components/ScrollToTop";
 import Contact from './components/Contact';
+import NoMatch from './components/NoMatch';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
             <Route exact path="/home" component={Home} />
             <Route exact path="/portfolio" component={Portfolio} />
             <Route exact path="/contact" component={Contact} />
+            <Route component={NoMatch}/>
           </Switch>
         <Footer />
       </div>
