@@ -71,7 +71,7 @@ function Portfolio() {
 
     return (
         <div>
-            <HeroImage image="./images/space5.jpg" randomQuote={true} animate={true} quotes={["Projects"]}/>
+            <HeroImage image="./images/space6.jpg" randomQuote={true} animate={true} quotes={["Projects"]}/>
             <ContentArea>
                 <div className="row" style={{margin: 10 + "px"}}>
                         {projects.map(e => {
