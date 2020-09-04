@@ -1,6 +1,6 @@
 .header-text {
     display: table; /* Centers items for IE */
-    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Kumbh Sans', sans-serif !important;
     font-size: xx-large;
     width: max-content;
     color: #4aaaa5;

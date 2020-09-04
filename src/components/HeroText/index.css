@@ -1,7 +1,6 @@
 .cusFont {
     font-size: x-large;   
-    font-family: 'Share Tech Mono', monospace;
-    text-shadow: 2px 2px #4aaaa571;
+    font-family: 'Kumbh Sans', sans-serif !important;
 }
 
 .animateFadeIn {
