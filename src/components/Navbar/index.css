@@ -11,10 +11,10 @@
 .navbarGrow { 
     min-width: 259px;
     max-width: 259px;
-  
+
     transition: all .2s ease-in-out; 
 }
-.navbarGrow:hover { transform: scale(1.2); }
+
 
 .cusNav {
     display: flex;
@@ -36,6 +36,42 @@
 
 a {
     color: #4aaaa5;
+}
+
+
+
+.animate {
+    opacity: 0;
+    animation-name: animateUp;
+    animation-duration: .5s;
+}
+
+.un-animate{
+    opacity: 1;
+    animation-name: animateDown;
+    animation-duration: .5s;
+}
+
+@keyframes animateUp {
+    from {
+        opacity: 1;
+        top: 0px;
+    }
+    to {
+        opacity: 0;
+        top: -50px;
+    }
+}
+
+@keyframes animateDown {
+    from {
+        opacity: 0;
+        top: -50px;
+    }
+    to {
+        opacity: 1;
+        top: 0px;
+    }
 }
 
 
